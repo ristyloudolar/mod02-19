@@ -1,0 +1,36 @@
+/*
+*
+* CSS Reset
+*
+*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*
+*
+* General Rules
+*
+*/
+
+.imageBig {
+	height: 500px;
+	width: 100%;
+}
+
+.imageSmall {
+	height: 200px;
+	width: 100%;
+}
+
+.footer {
+	width: 100vw;
+}
+
+
+
+
+
+
