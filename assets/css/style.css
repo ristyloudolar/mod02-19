@@ -15,19 +15,87 @@
 *
 */
 
-.imageBig {
-	height: 500px;
-	width: 100%;
+
+
+
+.navbar-brand {
+	font-size: 35px;
 }
 
-.imageSmall {
-	height: 200px;
-	width: 100%;
+/*.footerImage {
+	height: 100px;
+}*/
+
+/*.subscribe {
+	display: inline;
+}*/
+
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.footer {
+.card {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+}
+
+.card-header {
+	background-color: white;
+}
+
+.inputEmail {
+	width: 30%;
+}
+
+footer {
+	background-color: #000;
+	letter-spacing: 2px;
+}
+
+.nav-item .nav-link {
+	color: #fff;
+	
+
+}
+
+footer > div > ul > li:nth-child(1),
+footer > div > ul > li:nth-child(2),
+footer > div > ul > li:nth-child(3),
+footer > div > ul > li:nth-child(4) {
+	border-right: 1px solid #fff;
+}
+
+.photo-nav {
+	min-height: 15vh;
+	position: relative;
 	width: 100vw;
+
 }
+
+.photo-nav img {
+	height: 154px;
+	width: 100%;
+	overflow: hidden;
+
+	
+}
+
+.insta {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	z-index: 9;
+	text-transform: uppercase;
+}
+
+
 
 
 
